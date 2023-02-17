@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Profile 1": {
+      "commandName": "Executable",
+      "executablePath": "%USERPROFILE%\\.dotnet\\tools\\dotnet-lambda-test-tool-6.0.exe",
+      "commandLineArgs": "-- port 5050",
+      "workingDirectory": ".\\bin\\$(Configuration)\\net6.0"
+    }
+  }
+}
